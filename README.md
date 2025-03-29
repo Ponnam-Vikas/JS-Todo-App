@@ -1,3 +1,4 @@
+![Todo list](https://github.com/user-attachments/assets/150b8063-db3f-4b5b-9f24-9397a36a24f2)
 # ✅ To-Do List
 
 A simple and interactive To-Do List web application built using HTML, CSS, and JavaScript. It allows users to add tasks, display them in a list, and remove tasks individually.
