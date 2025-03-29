@@ -1,0 +1,97 @@
+/* Set the base styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container box styling */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading style */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Input section for adding tasks */
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+/* Style for input field */
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style for the add button */
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Change background color on hover */
+button:hover {
+    background: #218838;
+}
+
+/* Style for the task list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* Style for each task item */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s;
+    word-wrap: break-word; /* Prevents text from overflowing */
+}
+
+/* Change background on hover */
+li:hover {
+    background: #f8f9fa;
+}
+
+/* Style for the delete button */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px; /* Adds spacing between task text and button */
+    flex-shrink: 0; /* Prevents shrinking when resizing */
+}
+
+/* Change delete button color on hover */
+.delete-btn:hover {
+    background: darkred;
+}
